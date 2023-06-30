@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>jQuery - Filtering Shapes Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+  <!-- Custom CSS Files -->
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+<div class="container">
+<ul class="tab-container">
+  <li>
+    <span class="tab" data-filter="triangle"><i class="material-icons" style="font-size: 90px;">change_history</i></span>
+  </li>
+  <li>
+    <span class="tab" data-filter="square"><i class="material-icons" style="font-size: 90px;">square</i></span>
+  </li>
+  <li>
+    <span class="tab" data-filter="circle"><i class="material-icons" style="font-size: 90px;">circle</i></span>
+  </li>
+  <li><span class="tab" data-filter="purple" style="font-size: 50px;">Purple</span></li>
+  <li><span class="tab active" data-filter="all" style="font-size: 50px;">All</span></li>
+</ul>
+
+<div id="shapes-container">
+  <div class="shape circle all" data-filter="circle">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #ee6055;">circle</i>
+    </div>
+  </div>
+
+  <div class="shape square all" data-cat="square">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #99d98c;">square</i>
+    </div>
+  </div>
+
+  <div class="shape circle all purple" data-cat="circle">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #9b5de5;">circle</i>
+    </div>
+  </div>
+
+  <div class="shape triangle all" data-cat="triangle">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #fb6376;">change_history</i>
+    </div>
+  </div>
+
+  <div class="shape square all" data-cat="square">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #ff5048;">square</i>
+    </div>
+  </div>
+
+  <div class="shape square all purple" data-cat="square">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #9b5de5;">square</i>
+    </div>
+  </div>
+
+  <div class="shape circle all" data-cat="circle">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #fff25c;">circle</i>
+    </div>
+  </div>
+
+  <div class="shape triangle all" data-cat="triangle">
+    <div class="shapes-wrapper">
+      <i class="material-icons-outlined" style="color: #b2ff9e;">change_history</i>
+    </div>
+  </div>
+
+  <div class="shape square all" data-cat="square">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #92ff78;">square</i>
+    </div>
+  </div>
+
+  <div class="shape circle all" data-cat="circle">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #7fc9ff;">circle</i>
+    </div>
+  </div>
+
+  <div class="shape triangle all purple" data-cat="triangle">
+    <div class="shapes-wrapper">
+      <i class="material-icons-outlined" style="color: #9b5de5;">change_history</i>
+    </div>
+  </div>
+
+  <div class="shape square all" data-cat="square">
+    <div class="shapes-wrapper">
+      <i class="material-icons" style="color: #f78ecf;">square</i>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="assets/js/jQuery.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
